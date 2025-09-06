@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-section">
+                <div class="logo">⚡</div>
+                <h1>Odin AI</h1>
+            </div>
+            <div class="status-indicator" id="statusIndicator">
+                <span class="status-dot"></span>
+                <span>Ready</span>
+            </div>
+        </header>
+        
+        <main class="chat-area">
+            <div class="messages-container" id="messagesContainer">
+                <div class="welcome-message">
+                    <div class="welcome-icon">⚡</div>
+                    <h2>Welcome to Odin AI</h2>
+                    <p>Your intelligent conversation partner. Ask me anything!</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="input-section">
+            <div class="input-container">
+                <input type="text" id="messageInput" placeholder="Ask Odin anything..." maxlength="100" autocomplete="off">
+                <button id="sendButton" type="button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
